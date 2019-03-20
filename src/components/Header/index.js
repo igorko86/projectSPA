@@ -1,12 +1,12 @@
 import React from 'react';
-
-const Header = () => {
+import './header.css';
+const Header = (props) => {
     return (
-        
-            <header className='header'>
-                <img src="https://www.freelogodesign.org/Content/img/logo-ex-7.png" alt="logo" />
-            </header>
-       
+
+        <header className='header'>
+            <img src="https://www.freelogodesign.org/Content/img/logo-ex-7.png" alt="logo" />
+        </header>
+
     );
 };
 
